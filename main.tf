@@ -1,10 +1,10 @@
 
 module "aws_instance" {
 
-    # source = "../modules/cloud-run-no-auth"
+    source = "../module/ecs"
 
 # https://www.terraform.io/language/modules/sources#generic-git-repository
-    source = "git::https://github.com/mgladson/Terraform-Modules-Chainlink.git//modules/aws/ec2-free-instance"
+    # source = "git::https://github.com/mgladson/Terraform-Modules-Chainlink.git//modules/aws/ec2-free-instance"
 
     # EC2 instance variables
     ami                           = var.ami
