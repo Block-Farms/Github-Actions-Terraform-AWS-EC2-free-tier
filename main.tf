@@ -1,7 +1,7 @@
 
 module "aws_instance" {
 
-    source = "/module/ecs"
+    source = "module/ecs"
 
 # https://www.terraform.io/language/modules/sources#generic-git-repository
     # source = "git::https://github.com/mgladson/Terraform-Modules-Chainlink.git//modules/aws/ec2-free-instance"
