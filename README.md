@@ -1,1 +1,1 @@
-# Terraform AWS ECS free tier
+# Terraform AWS EC2 free tier
